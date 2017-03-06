@@ -1,0 +1,213 @@
+#people-think2 h3{
+  font-size: 35px;
+  font-family: 'Tienne', serif;
+
+}
+#people-think3 h3{
+  font-size: 35px;
+  font-family: 'Tienne', serif;
+
+}
+.team-members{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(185, 110, 46);
+  padding: -11px;
+}
+.about-deco-line{
+  font-size: 49px;
+  color: grey;
+}
+.about-d-line{
+  width: 13%;
+  height: 2px;
+  border: 2px solid grey;
+  display:inline-block;
+  margin-bottom: 18px;
+}
+.menu-deco-line{
+  font-size: 49px;
+  color: grey;
+}
+.menu-d-line{
+  width: 8%;
+  height: 2px;
+  border: 2px solid grey;
+  display:inline-block;
+  margin-bottom: 18px;
+}
+.people-deco-line{
+  font-size: 49px;
+  color: grey;
+}
+.people-d-line{
+  width: 19%;
+  height: 2px;
+  border: 2px solid grey;
+  display:inline-block;
+  margin-bottom: 18px;
+}
+.team-deco-line{
+  font-size: 49px;
+  color: grey;
+}
+.team-d-line{
+  width: 17%;
+  height: 2px;
+  border: 2px solid grey;
+  display:inline-block;
+  margin-bottom: 18px;
+}
+.numbers-deco-line{
+  font-size: 49px;
+  color: grey;
+}
+.numbers-d-line{
+  width: 17%;
+  height: 2px;
+  border: 2px solid grey;
+  display:inline-block;
+  margin-bottom: 18px;
+}
+#numbers{
+  margin-bottom: 20px;
+  padding: -11px;
+}
+#numbers h3{
+  margin-top: 5%;
+  font-size: 44px;
+  font-family: 'Tienne', serif;
+}
+#numbers h4{
+  font-size: 25px;
+  font-family: 'Nunito',sans-serif;
+}
+#numbers p{
+  font-size: 20px;
+
+}
+
+#numbers1 h3{
+  font-size: 44px;
+  font-family: 'Tienne', serif;
+}
+#numbers2 h3{
+  font-size: 44px;
+  font-family: 'Tienne', serif;
+}
+#numbers3 h3{
+  font-size: 44px;
+  font-family: 'Tienne', serif;
+}
+/*breakfast*/
+.container{
+position: relative;
+width: 360px;
+}
+.image{
+  display: block;
+
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 5s ease;
+    background-color: rgb(3, 3, 11);
+    }
+    .container:hover .overlay{
+      opacity: 1;
+    }
+    .text{
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+    }
+    .btn{
+      border-radius: 50%;
+      font-size: 18px;
+    }
+.btn-success{
+  background-color: #1d9c6f;
+  border-color: #141515;
+}
+.social-icon{
+  font-size: 18px;
+}
+/*styling for smaal devices*/
+ @media (max-width: 736px){
+#header{
+  height: 227px;
+}
+
+   #about-us{
+     margin-left: 15px;
+     margin-right: 276px;
+   }
+   #about-us h3{
+     font-size: 21px;
+   }
+   #about-us p{
+     margin-top: 0%;
+     font-size: 46%;
+   }
+   .about-d-line{
+     width: 23%;
+   }
+   #thinks{
+     margin-left: 12px;
+     margin-right: 279px;
+   }
+   #thinks h3{
+    font-size: 21px;
+   }
+   #thinks p{
+     font-size: 15px;
+   }
+   #people-think{
+     margin-left: 15px;
+     margin-right: 276px;
+   }
+   #people-think h3{
+     font-size: 21px;
+   }
+   #people-think p{
+     font-size: 12px;
+   }
+   #numbers{
+     margin-left: 15px;
+     margin-right: 276px;
+   }
+   #numbers h3{
+     font-size: 22px;
+   }
+   #numbers h4{
+     font-size: 15px;
+   }
+   #contact-us{
+     margin-left: 0px;
+     margin-right: 36px;
+   }
+   #contact-us h3{
+     font-size: 22px;
+     margin-left: 0px;
+     margin-right: 169px;
+   }
+   #menu{
+     margin-left: 15px;
+     margin-right: 276px;
+   }
+   #menu h3{
+     font-size: 21px;
+   }
+ }
